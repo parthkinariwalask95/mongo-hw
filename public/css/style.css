@@ -1,0 +1,30 @@
+.menu{
+    font-size: 30px;
+}
+body{
+    background:azure;
+    color:black;
+    text-align: center;
+}
+.back1{
+    background-color:white;
+}
+
+.headr1{
+    font-size: 25px;
+    color: blueviolet;
+    background: black;
+}
+.detailstext{
+font-size: 20px;
+color: black;
+background:white;
+
+}
+.link{
+    color: blue;
+}
+.unsaved{
+    background:purple;
+    color: white;
+}

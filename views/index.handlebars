@@ -1,0 +1,31 @@
+<div class="jumbotron" style="background-image: url(https://hellboundbloggers.com/wp-content/uploads/2009/10/Great-Tips-For-Writing-A-Killer-Blog-Article.jpg); background-size: 100%; height:400px;">
+  <div class="container for-about">
+    <h1 class="text-center" style="color:blueviolet"><marquee>Mongo Scrapper</marquee></h1>
+    <h1 class="text-center"></h1>
+
+  </div>
+</div>
+
+{{#each articles}}
+<br>
+<br>
+<br>
+<div class="back1">
+  <div>
+
+    <span>
+
+      <p class="header1">{{this.headline}}</p>
+      <button class="btn btn-warning float-right saved" style="float:right;" data-id="{{this._id}}">SAVE ARTICLE</button>
+    </span>
+    <p class="detailstext">{{this.summury}}</p>
+    <p class="detailstext">
+      <a class="link" href="https://www.nytimes.com{{this.url}}" target="_blank">Click Here To See More Details !!!</a>
+    </p>
+  </div>
+
+</div>
+
+{{/each}}
+
+<script src="./index.js"></script>
